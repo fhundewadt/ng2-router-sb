@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<h1 class="app-title"><a [routerLink]="['/home']">{{title}}</a></h1>
+<nav>
+  <a [routerLink]="['/products']">Products</a>
+  <a [routerLink]="['/crisis-center']">Crisis Center</a>
+  <a [routerLink]="['/heroes']">Heroes</a>
+  <a [routerLink]="['/crisis-center/admin']">Crisis Admin</a>
+  <a [routerLink]="['/login']">Login</a>
+</nav>
+<router-outlet></router-outlet>

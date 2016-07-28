@@ -1,4 +1,4 @@
-export class Ng2InnoSbPage {
+export class Ng2RouterPage {
   navigateTo() {
     return browser.get('/');
   }

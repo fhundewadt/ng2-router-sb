@@ -1,0 +1,7 @@
+<ul class="items">
+  <li *ngFor="let product of products"
+      [class.selected]="isSelected(product)"
+      (click)="onSelect(product)">
+    <span class="badge">{{product.itemNumber}}</span> {{product.txt}}
+  </li>
+</ul>

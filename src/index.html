@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ng2InnoSb</title>
+  <title>Ng2Router</title>
   <base href="/">
 
   {{#unless environment.production}}
@@ -10,11 +10,10 @@
   {{/unless}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <app-root>Loading...</app-root>
-
-  
 
     {{#each scripts.polyfills}}
     <script src="{{.}}"></script>
@@ -24,8 +23,6 @@
         System.import('main');
       }).catch(console.error.bind(console));
     </script>
-
-  
 
 </body>
 </html>

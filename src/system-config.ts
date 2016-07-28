@@ -1,3 +1,5 @@
+"use strict";
+
 // SystemJS configuration file, see links for more information
 // https://github.com/systemjs/systemjs
 // https://github.com/systemjs/systemjs/blob/master/docs/config-api.md
@@ -34,6 +36,13 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/products',
+  'app/product-list',
+  'app/product-detail',
+  'app/product-admin',
+  'app/prices',
+  'app/home-component',
+  'app/home',
   /** @cli-barrel */
 ];
 

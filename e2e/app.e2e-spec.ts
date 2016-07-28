@@ -1,10 +1,10 @@
-import { Ng2InnoSbPage } from './app.po';
+import { Ng2RouterPage } from './app.po';
 
-describe('ng2-inno-sb App', function() {
-  let page: Ng2InnoSbPage;
+describe('ng2-router App', function() {
+  let page: Ng2RouterPage;
 
   beforeEach(() => {
-    page = new Ng2InnoSbPage();
+    page = new Ng2RouterPage();
   });
 
   it('should display message saying app works', () => {
